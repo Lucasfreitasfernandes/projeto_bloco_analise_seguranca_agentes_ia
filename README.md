@@ -73,7 +73,7 @@ healthassist-api/
 uvicorn app.main:app --reload
 ```
 
-A API sobe em `http://127.0.0.1:8000`. Documentação interativa automática em `http://127.0.0.1:8000/docs`.
+A API sobe em `http://127.0.0.1:8000`.
 
 Rotas disponíveis:
 - `GET /health` — verifica se a API está no ar (sem autenticação).
@@ -87,7 +87,7 @@ cd eda
 python eda_medpt.py
 ```
 
-Isso gera os 3 gráficos (`grafico_categorias.png`, `grafico_tamanho_perguntas.png`, `grafico_boxplot_categoria.png`) e imprime no terminal o shape, dtypes, valores ausentes, duplicatas e distribuição das categorias. O relatório completo com as hipóteses está em `eda/eda_report.md`.
+Isso gera os 3 gráficos (`grafico_categorias.png`, `grafico_tamanho_perguntas.png`, `grafico_boxplot_categoria.png`) e imprime no terminal o shape, dtypes, valores ausentes, duplicatas e distribuição das categorias. O relatório completo com as hipóteses está em `eda_report.md`.
 
 ## Escolha do dataset
 
