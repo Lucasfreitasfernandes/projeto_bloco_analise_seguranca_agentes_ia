@@ -26,12 +26,12 @@ healthassist-api/
 │       ├── __init__.py
 │       └── schemas.py         # modelos Pydantic
 ├
-│   ├── eda_medpt.py           # script de EDA
-│   ├── medpt_amostra.csv      # amostra do dataset (5.000 linhas)
-│   ├── eda_report.md          # relatório de EDA com gráficos e hipóteses
-│   ├── grafico_categorias.png
-│   ├── grafico_tamanho_perguntas.png
-│   └── grafico_boxplot_categoria.png
+│── eda_medpt.py           # script de EDA
+│── medpt_amostra.csv      # amostra do dataset (5.000 linhas)
+│── eda_report.md          # relatório de EDA com gráficos e hipóteses
+│── grafico_categorias.png
+│── grafico_tamanho_perguntas.png
+│── grafico_boxplot_categoria.png
 ├
 │── dfd_cia.md             # DFD (Mermaid) + análise CIA
 │── dfd.svg                # DFD em SVG (editável no draw.io)
